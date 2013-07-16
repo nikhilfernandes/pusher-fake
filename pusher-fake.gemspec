@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.require_path = "lib"
 
   s.add_dependency "em-http-request", "~> 1.1.0"
-  s.add_dependency "em-websocket",    "~> 0.5"
-  s.add_dependency "thin",            "~> 1.5"
-  s.add_dependency "multi_json",      "~> 1.6"
+  s.add_dependency "em-websocket",    "~> 0.5.0"
+  s.add_dependency "thin",            "~> 1.5.1"
+  s.add_dependency "multi_json",      "~> 1.7.7"
 
   s.add_development_dependency "bourne",          "1.5.0"
   s.add_development_dependency "capybara-webkit", "1.0.0"
