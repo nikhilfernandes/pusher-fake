@@ -15,6 +15,4 @@ fork { PusherFake::Server.start }.tap do |id|
 end
 
 # Reset channels between scenarios.
-After do
-  PusherFake::Channel.reset
-end
+
